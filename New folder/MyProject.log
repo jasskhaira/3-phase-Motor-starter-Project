@@ -1,0 +1,9 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -RA -DL -O11111114 -fo8 -N"C:\Users\Jass khaira\Desktop\New folder\MyProject.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Jass khaira\Desktop\New folder\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "MyProject.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_ADC_A_C.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	P16F877A.c
+diagnostics: 660	123	Compiled Successfully	P16F877A.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 123	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	MyProject.c
+error: 10	324	Undeclared identifier 'ANSEL' in expression	MyProject.c
+error: 0	102	Finished (with errors): 01 Sep 2019, 05:12:13	MyProject.mcppi
