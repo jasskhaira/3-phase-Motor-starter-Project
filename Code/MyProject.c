@@ -4,14 +4,14 @@ void main()
  int phase2;
  int a=0,b=0,c,refp1=0,refp2=0,d=0,j,g=0,h=0;
 
-    TRISA=0;                                          //portA  as aoutput
-    TRISC4_bit=0;                                    //relay pin as output
+    TRISA=0;                                         // portA  as aoutput
+    TRISC4_bit=0;                                   // relay pin as output
     TRISC3_bit=0;
-    ANSEL=01100000;                                   // adc select
-    PORTA=0X00;                                 // portA  set low
+    ANSEL=01100000;                                // adc select
+    PORTA=0X00;                                    // portA  set low
     PORTC.F4=0;                                    // relay pins low
     PORTC.F3=0;
-     ADC_Init();                                  //relay pins low
+     ADC_Init();                                   //relay pins low
    phase1=ADC_Get_Sample(5);
    phase2=ADC_Get_Sample(6);
 
